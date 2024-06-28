@@ -12,4 +12,20 @@ button.addEventListener('click', function (){
     // CREO LA VARIABILE DI CONTROLLO
     let found_email = false
 
+    // CICLO L'ARRAY E LO CONFRONTO CON L'ELEMENTO CHE STO CICLANDO CON LA PAROLA INSERITA DALLA FORM
+    for (i = 0; i < saved_email.length; i++){
+        if(saved_email[i].toLowerCase() === email.toLowerCase()){
+            // IMPOSTO LA VARIABILE DI CONTROLLO A TRUE
+            found_email = true;
+        }
+    }
+
+    // MOSTRO IL MESSAGGIO CORRISPONDENTE A SECONDA DEL VALORE DELLA VARIABILE DI CONTROLLO
+    if(found_email === true){
+        console.log("login consentito");
+    }
+    else {
+        console.log("login non consentito");
+    }
+
 })
