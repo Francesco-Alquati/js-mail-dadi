@@ -36,3 +36,17 @@ Esercizio Mail
 8.1 - Se l'email non è presente nell'array stampo "login non consentito"
 
 
+Esercizio Gioco dei dadi
+
+1 - Creo una variabile per il lancio del dado del giocatore
+1.1 - Tramite il metodo random() della libreria Math faccio generare un valore casuale tra 0 e 1 (non compreso) per la variabile a cui lo applico
+1.2 - Moltiplico il numero generato per 6 e addizziono 1 cosi da ricevere un valore randomico compreso tra 6 e 1
+1.3 - Applico il metodo floor() della libreria Math per arrotondare per difetto al numero intero più piccolo
+2 - Creo una variabile per il lancio del dado del computer
+2.1 - Tramite il metodo random() della libreria Math faccio generare un valore casuale tra 0 e 1 (non compreso) per la variabile a cui lo applico
+2.2 - Moltiplico il numero generato per 6 e addizziono 1 cosi da ricevere un valore randomico compreso tra 6 e 1
+2.3 - Applico il metodo floor() della libreria Math per arrotondare per difetto al numero intero più piccolo
+3 - Creo una condizione if nel quale confronto i risultati del lancio del dado del giocatore e del computer
+3.1 - Se il valore della varibile del giocatore è maggiore del valore della variabile del computer allora vince il giocatore
+3.2 - Se il valore della varibile del giocatore è minore del valore della variabile del computer allora vince il computer
+3.3 - Se i valori delle due variabili sono uguali allora pareggiano 
