@@ -6,5 +6,10 @@ const button = document.getElementById('search');
 
 button.addEventListener('click', function (){
 
+    // RECUPERO IL VALORE INSERITO NEL CAMPO INPUT
+    let email = document.getElementById('user-email').value;
+
+    // CREO LA VARIABILE DI CONTROLLO
+    let found_email = false
 
 })
