@@ -20,3 +20,19 @@ Consigli del giorno:
 5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 Buon lavoro e buon divertimento! :faccia_leggermente_sorridente:
 
+
+Suddivido il problema in sottoproblemi
+
+Esercizio Mail
+
+1 - Creo un input type email nel file html
+2 - Creo un button per la ricerca
+3 - In js creo un array con la lista dell'email che possono accedere
+4 - In js recupero il button per la ricerca e gli applico una funcion al click
+5 - Nella function recupero il valore inserito nel campo input dall'utente
+6 - Nella function creo una variabile di controllo 
+7 - Nella function Ciclo l'array e confronto l'elemento che sto ciclando con la parola inserita nella form
+8 - Se l'email è presente nell'array stampo "login consentito"
+8.1 - Se l'email non è presente nell'array stampo "login non consentito"
+
+
