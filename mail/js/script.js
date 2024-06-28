@@ -23,9 +23,11 @@ button.addEventListener('click', function (){
     // MOSTRO IL MESSAGGIO CORRISPONDENTE A SECONDA DEL VALORE DELLA VARIABILE DI CONTROLLO
     if(found_email === true){
         console.log("login consentito");
+        document.getElementById('login').innerHTML = `login consentito`;
     }
     else {
         console.log("login non consentito");
+        document.getElementById('login').innerHTML = `login non consentito`;
     }
 
 })
